@@ -6,7 +6,7 @@ import Animation from './components/animation';
 function App() {
   return (
     <div className="App">
-      <Animation/>
+      <Animation />
     </div>
   );
 }

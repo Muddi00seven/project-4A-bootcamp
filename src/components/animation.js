@@ -12,8 +12,19 @@ import Tree from './images/TREE.gif'
 const Animation = () => {
     return (
         <div>
-            <h1>HELLO WORLD</h1>
-            <img src={Tree} />
+            {/* FOR TREE */}
+        <div>
+
+        </div>
+        {/* FOR CHILDREN */}
+        <div>
+
+        </div>
+        {/* FOR CAR */}
+        <div>
+
+
+        </div>
         </div>
     )
 }

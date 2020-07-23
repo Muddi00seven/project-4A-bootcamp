@@ -11,20 +11,24 @@ import Tree from './images/TREE.gif'
 
 const Animation = () => {
     return (
-        <div>
+        <div className={}>
             {/* FOR TREE */}
         <div>
-
+            <img src={} width="100%" height="100%" alt="cloud"/>
         </div>
         {/* FOR CHILDREN */}
         <div>
+        <img src={} width="100%" height="100%" alt="cloud"/>
 
         </div>
         {/* FOR CAR */}
+
         <div>
 
+        <img src={} width="100%" height="100%" alt="cloud"/>
 
         </div>
+
         </div>
     )
 }

@@ -22,7 +22,7 @@ const Animation = () => {
           },
         });
       
-
+        
     return (
         <div>
         <div>

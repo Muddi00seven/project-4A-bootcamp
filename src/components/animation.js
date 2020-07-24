@@ -6,7 +6,9 @@ import Sun from './images/SUN.gif'
 import Moon from './images/MOON.png';
 import NightRoad from './images/night Road.png';
 import DayRoad from './images/day road.jpg';
-import Tree from './images/TREE.gif'
+import Tree from './images/TREE.gif';
+import Tree2 from './images/TREE2.png'
+
 import './css/animation.css'
 
 const Animation = () => {
@@ -32,10 +34,10 @@ const Animation = () => {
         }
       >
         <div>
-          {/* <img src={forest} className="forest" alt="forest" />
-          <img src={tree5} className="tree1gif" alt="tree1gif" />
-          <img src={tree7} className="tree7" alt="tree7" />
-          <img src={tree6} className="tree2gif" alt="tree2gif" /> */}
+           <img src={DayRoad} className="DayRoad" alt="forest" />
+         <img src={Tree} className="tree" alt="tree1gif" />
+          <img src={Tree2} className="tree2" alt="tree7" />
+         {/*  <img src={tree6} className="tree2gif" alt="tree2gif" /> */}
         </div>
         <div ref={ref}>
           <div>
@@ -44,8 +46,8 @@ const Animation = () => {
             <img src={tree3} className="tree3" alt="tree3" />
             <img src={tree4} className="tree4" alt="tree4" /> */}
             <div>
-              {/* <img src={house1} className="house1" alt="house1" />
-              <img src={house2} className="house2" alt="house2" />
+               <img src={Tree2} className="tree3" alt="house1" />
+            {/*  <img src={house2} className="house2" alt="house2" />
               <img src={house3} className="house3" alt="house3" />
               <img src={house4} className="house4" alt="house4" />
               <img src={house5} className="house5" alt="house5" />
@@ -53,18 +55,18 @@ const Animation = () => {
             </div>
           </div>
         </div>
-        <div>
+         {/* <div>
           <img src={Car} className="road" alt="road" />
         </div>
         <div>
-          <img src={Car} className="person" alt="person" />
-        </div>
+          <img src={Tree2} className="person" alt="person" />
+        </div> */}
         <div>
-          <img src={Car} className="cow" alt="cow" />
+          <img src={Car} className="Car" alt="cow" />
         </div>
         <div>
           <img src={Car} className="grass" alt="grass" />
-        </div>
+        </div> *
         <div></div>
       </div>
   

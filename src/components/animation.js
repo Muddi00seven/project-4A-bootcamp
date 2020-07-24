@@ -18,7 +18,6 @@ const Animation = () => {
             duration: 30000,
             iterations: Infinity,
             easing: "ease-in-out",
-            direction: "reverse",
           },
         });
       
